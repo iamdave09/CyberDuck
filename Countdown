@@ -1,0 +1,44 @@
+#!/usr/bin/python
+
+import time
+"""This basically will halt the countdown so it doesnt go super fast
+"""
+
+print("==============================================================================")
+print(" / ___|___  _   _ _ __ | |_ __| | _____      ___ __   ")
+print("| |   / _ \| | | | '_ \| __/ _` |/ _ \ \ /\ / / '_ \ ")
+print("| |__| (_) | |_| | | | | || (_| | (_) \ V  V /| | | |")
+print(" \____\___/ \__,_|_| |_|\__\__,_|\___/ \_/\_/ |_| |_| ")
+print("==============================================================================")
+""" Let's add some fun, it was boring to just break it up like that :) be Happy!"""
+
+
+name = raw_input("What is your name?: ") #asking user name
+age  = int(raw_input("Which number to start counting?:  ")) #which number to start countdown, stricly a integer
+print("Hello! "+name+" and get ready for Blastoff")
+
+"""
+unnecessary but you can add it if you want
+print("*                   *")
+print(" *                 *")
+print("  *               *")
+print("   *             *")
+print("    *           *")
+print("     *         *")
+print("      *       *")
+print("       *     *")
+print("        *   *")
+print("         * *")
+print("          *") """
+
+    
+
+
+
+
+while age>0:
+    print(age)
+    time.sleep(1)
+    age -= 1
+    
+print("Blastoff completed...")
